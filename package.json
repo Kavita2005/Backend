@@ -1,11 +1,15 @@
 {
-  "name": "backendnode",
-  "version": "1.0.0",
-  "description": "this backend prg",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC"
+    "name": "backendnode",
+    "version": "1.0.0",
+    "description": "this backend prg",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon src/index.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "nodemon": "^3.1.10"
+    }
 }
